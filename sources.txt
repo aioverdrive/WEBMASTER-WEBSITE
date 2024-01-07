@@ -20,3 +20,12 @@ declining rapidly unlike anything seen before. like, from 2009 to 2019, cost of 
 example. it would have been unthinkable for any home owner to switch to green energy considering the steep price tags, but now with
 prices tags that are comparable or cheaper to fossil fuel solutions due to the competitive energy market and high demand, costs
 for the average home owner are cheaper than ever.
+https://www.techradar.com/home/smart-home/how-smart-home-is-changing-in-2024 (for smart appliance info)
+The open source standard "Matter" is making more headwaves in the smart furniture industry, aiming to increase compatability amongst
+all smart home devices, making smart furniture more seemless as Matter standarizes connections under one system.
+Amazon also is looking into implementing AI to Alexa and other Amazon branded smart devices, optimizing smart furniture for
+efficency and conveinience. The upfront premium for smart furnitures continue to go down as the market develops and matures over time,
+meaning that now is the best time to choose green furniture to save the environment and save more green in your wallet for the long term.
+https://www.cnet.com/home/energy-and-utilities/solar-cheat-sheet-your-complete-guide-to-getting-solar-panels-at-home/ (all things solar panels)
+^didnt finish this yet but apparently there are community solar panels which dont require some homeowners to personally instal panels to use
+solar energy, and this provides helpful info on the costs of solar per watt.
