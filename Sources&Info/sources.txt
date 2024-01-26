@@ -1,0 +1,22 @@
+Links to relevant sources and what we're using them for
+(probably not using all of these, just dumping anything related to the theme)
+(sources with a star ⭐ we are definetly using)
+https://co2.earth/
+^Could be used for info for an environmental snapshot of today and why green energy is necessary to implement here and now.
+https://www.epa.gov/greeningepa/energy-act-2020 
+^energy act of 2020 shows movements in industrial users in clean energy and water implementations and also the 
+measuring of their cost efficiency compared to fossil fuel energy productions. not super relevant to the average
+household owner but could be used to show that america is collectively putting in effort towards green energy
+so individuals should to.
+https://www.irs.gov/credits-deductions/residential-clean-energy-credit ⭐
+^relevant info for the main tax incentive in the us, the residential clean energy program.
+main points: the credit is dollar for dollar, meaning the amount of credit acquired can be
+subtracted from total income tax (i.e. total tax is 10k, but credit gathered was 2k, so subtract it and now tax is just 8k)
+credit gathered is 30% cost of implementing the green energy residentially, and it's reoccuring annually
+(but it only lasts till 2033, where the credit program phases out. incentive for households to implement green energy now)
+https://ourworldindata.org/cheap-renewables-growth ⭐
+^my attention span is running thin rn so i didnt read it fully but a key point of the article is that renewable energy prices are
+declining rapidly unlike anything seen before. like, from 2009 to 2019, cost of solar and wind energy reduced by 89% and 70% for 
+example. it would have been unthinkable for any home owner to switch to green energy considering the steep price tags, but now with
+prices tags that are comparable or cheaper to fossil fuel solutions due to the competitive energy market and high demand, costs
+for the average home owner are cheaper than ever.
