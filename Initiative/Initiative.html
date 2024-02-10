@@ -4,61 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Energy</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Initiative.css">
+    <link rel="stylesheet" href="navbar.css">
     <!--google font stuff below-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    
 </head>
 <body>
 
     <!-- nav links -->
     <nav>
         <ul>
-            <li><a href="#" class="logo"><img src=""></a></li> <!-- nothing for right now -->
+            <li><a href="#" class="logo"><img src="leaf-icon-png-20.png"></a></li> 
             <li><span class="header-title">Green Energy Solutions</span></li> 
     </ul>
         </ul>
         <ul>
             <div id="menu-items">
-                <li><a href="#" class="menu-item">Home</a></li>
-                <li><a href="#" class="menu-item">About</a></li>
-                <li><a href="#" class="menu-item">Initiative</a></li>
-                <li><a href="#" class="menu-item">Contact</a></li>
+              <li><a href="Home.html" class="menu-item">Home</a></li>
+              <li><a href="About.html" class="menu-item">About</a></li>
+              <li><a href="Initiative.html" class="menu-item">Initiative</a></li>
+              <li><a href="Documents.html" class="menu-item">Documents</a></li>
+              <li><a href="Contact.html" class="menu-item">Contact</a></li>
             </div>
         </ul>
     </nav>
 </header> <!-- info -->
 
 
-<div class="hero">
-    <img src="red-zeppelin-UVGE-o757-g-unsplash.jpg" alt="Image 5" class="active">
-    <img src="blue-skye-windmill-solar-panel-clouds-istock-453911335.jpeg" alt="Image 1" >
-    <img src="eco-house.jpg" alt="Image 6">
-    <img src="solar-panels-roof-solar-cell.jpg" alt="Image 3">
-    <img src="ashes-sitoula-UfEyDdXlRp8-unsplash.jpg" alt="Image 7">
-    <img src="239643.jpg" alt="Image 2">
-    <img src="beautiful-alternative-energy-plant-with-solar-panels.jpg" alt="Image 4">
 
-    
-
-    
-
-    
-
-
-</div>
-
-    
-<div>
-    <h2 class="header1">Welcome to Sustainable Living</h2>
-    <p class="header2">Discover eco-friendly solutions for your home and contribute to a greener future</p>
-</div>
 
     <div class="main-content">
         <h2>About Green Energy</h2>
         <p>Learn about the importance of green energy and how it can positively impact the environment.</p>
-        
+        <div class="info-cards">
+            
+
+            <div class="info-card">
+                <h3>Solar Panel Installation</h3>
+                <p>add info</p>
+            </div>
+            <div class="info-card">
+                <h3>Energy-Efficient Appliances</h3>
+                    <ul class="list-home">
+                        <li class="bullet-home">
+                            The open source standard "Matter" looks to be integrated into more 
+                            and more smart devices as a standarized solution for all IoT (Internet of Things) Appliances
+                            to easily control all aspects of a smart home under one system.
+                        </li>
+                        <li class="bullet-home">
+                            Amazon looks to incorporating AI technologies with Amazon Alexa
+                            to optimize light, themostat, and other applicanes automatically 
+                            to save households the headache with setting up their appliances
+                            the most green way possible.
+                        </li>
+                        <li class="bullet-home">
+                            The upfront premium for energy efficient and smart appliances only continue to go down as this industry
+                            develops and matures with time, so now is the best time to go green on smart furniture and save your green in your wallet.
+                        </li>
+                    </ul>
+            </div>
+            <div class="info-card">
+                <h3>Green Roof Solutions</h3>
+                <p>add info</p>
+            </div>
+
+            <div class="info-card">
+                <h3>something</h3>
+                <p>add info</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Wind Turbine Solutions</h3>
+                <p>add info</p>
+            </div>
+
+            <div class="info-card">
+                <h3>Carbon Offset Programs</h3>
+                <p>add info</p>
+            </div>
+        </div>
+
         <h2 class="accordion">Basic Green Energy Solutions</h2>
         <div class="panel">
             <p>add info</p>
@@ -81,6 +109,7 @@
             </p>
         </div>
 
+<<<<<<< HEAD:index.html
         <div class="info-cards">
             <div class="info-card">
                 <h3>Energy-Efficient Appliances</h3>
@@ -128,7 +157,6 @@
                 <p>add info</p>
             </div>
         </div>
-
         <h2 class="accordion">Advanced Green Energy Solutions</h2>
         <div class="panel">
             <p>add info</p>
@@ -168,93 +196,10 @@
         <!--i agree-->
     </div>
 
-    <footer>
-        <p> Aymen Awol & Allan Ilano</p>
-    </footer>
+  
 
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $(".accordion").click(function () { // make next element visibile
-            $(this).next(".panel").slideToggle("fast");
-        });
+    <script src="Initiative.js"></script>
 
-        
-        var calculatorOpen = false;
-
-        $("#calculatorButton").click(function () {
-            
-            $("#calculatorSection").slideToggle("fast");
-
-            
-            if (calculatorOpen) {
-                $("#calculatorButton").text("Open Calculator");
-            } else {
-                $("#calculatorButton").text("Close Calculator");
-            }
-
-            
-            calculatorOpen = !calculatorOpen;
-        });
-
-        //reset button
-        $("#resetButton").click(function () {
-            
-            $("#electricityUsage").val("");
-            $("#savingsPercentage").val("");
-
-            
-            document.getElementById('results').innerHTML = "";
-
-            
-            $("html, body").animate({ scrollTop: $("#calculatorSection").offset().top }, "slow");
-        });
-
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > $(".interactive-section").offset().top - $(window).height() / 2) {
-                $(".interactive-section").fadeIn();
-            }
-        });
-        
-
-        
-            //slideshow script
-            var images = $('.hero img');
-                var currentIndex = 0;
-
-                function showNextSlide() {
-                    images.eq(currentIndex).removeClass('active');
-                    currentIndex = (currentIndex + 1) % images.length;
-                    images.eq(currentIndex).addClass('active');
-                }
-
-                setInterval(showNextSlide, 3000);
-
-    });
-
-    // Calculator Script
-    function calculateResults() {
-        const electricityUsage = parseFloat(document.getElementById('electricityUsage').value);
-        const savingsPercentage = parseFloat(document.getElementById('savingsPercentage').value);
-
-        if (isNaN(electricityUsage) || isNaN(savingsPercentage)) {
-            alert('Please enter valid numbers.');
-            return;
-        }
-
-        const savings = (electricityUsage * savingsPercentage) / 100; //maybe not right??
-        const environmentalImpact = electricityUsage - savings;
-            //could change units
-        const results = `
-            <h2>Results</h2> 
-            <p>Estimated Monthly Savings: ${savings.toFixed(2)} kWh</p>
-            <p>Reduced Environmental Impact: ${environmentalImpact.toFixed(2)} kWh</p>
-        `;
-
-        document.getElementById('results').innerHTML = results;
-    }
-    
-</script>
 
     
 

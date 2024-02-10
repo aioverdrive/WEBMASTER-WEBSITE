@@ -1,0 +1,156 @@
+/* hero styles */
+.hero {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: auto; 
+    min-height: 100vh; 
+    box-sizing: border-box;
+}
+
+.hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    z-index: 1;
+}
+
+.hero img.active {
+    opacity: 1;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, .85), transparent);
+    z-index: 2;
+}
+
+.header1,
+.header2 {
+    text-align: left;
+    position: absolute;
+    font-size: 5.5vw; 
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    left: 5%; 
+    width: 90%; 
+}
+
+.header1 {
+    top: 30%;
+}
+
+.header2 {
+    top: 50%; 
+    font-size: 1.5vw; 
+    z-index: 3;
+}
+
+.hero-button {
+    position: absolute;
+    top: 70%; 
+    left: 5%; 
+    transform: translateY(-50%); 
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1.5vw 5vw; 
+    font-size: 1.5vw; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.hero-button {
+    display: inline-block;
+    font-size: 1em;
+    background: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    color: #111;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+.hero-button:hover {
+    letter-spacing: 8px;
+    background-color: green;
+    color: white;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.animated span {
+    display: inline-block;
+    opacity: 0;
+}
+
+.animated {
+    animation-fill-mode: both;
+}
+
+@keyframes slideInTopLeft {
+    from {
+        transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInTopRight {
+    from {
+        transform: translate(50%, -50%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottomLeft {
+    from {
+        transform: translate(-50%, 50%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInBottomRight {
+    from {
+        transform: translate(50%, 50%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
