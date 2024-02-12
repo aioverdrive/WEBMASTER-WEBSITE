@@ -25,12 +25,12 @@ section {
 }
 
 .one {
-    background: url('images/ashes-sitoula-UfEyDdXlRp8-unsplash.jpg') no-repeat center center fixed;
+    background: url('../images/ashes-sitoula-UfEyDdXlRp8-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
 .three {
-    background: url('images/44-Micro-Lexington-House-Home-Image.jpg') no-repeat center center fixed;
+    background: url('../images/44-Micro-Lexington-House-Home-Image.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
